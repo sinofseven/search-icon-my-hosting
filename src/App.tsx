@@ -87,7 +87,7 @@ function App() {
     return (
       <div className="card" key={v} style={{width: "150px", display: "inline-block", margin: "0.2rem"}}>
         <header className="card-header">
-          <p className="card-header-title" style={{fontSize: "0.50rem", padding: "8px", wordBreak: "break-all"}}>{basename}</p>
+          <p className="card-header-title" style={{fontSize: "0.8rem", padding: "8px", wordBreak: "break-all"}}>{basename}</p>
           <button className="card-header-icon" aria-label="more options" style={{padding: "8px"}} onClick={handleClickCopy}>
             <span className="icon">
               <i className="fas fa-clipboard" aria-hidden="true" />
@@ -99,7 +99,7 @@ function App() {
             <img src={url} alt={basename} style={{maxWidth: "64px"}} />
           </figure>
         </div>
-        <div className="card-content" style={{fontSize: "0.5rem", paddingLeft: "16px", paddingRight: "16px", paddingTop: "12px", paddingBottom: "12px", wordBreak: "break-all"}}>
+        <div className="card-content" style={{fontSize: "0.75rem", paddingLeft: "16px", paddingRight: "16px", paddingTop: "12px", paddingBottom: "12px", wordBreak: "break-all"}}>
           <ol>{listItems}</ol>
         </div>
       </div>

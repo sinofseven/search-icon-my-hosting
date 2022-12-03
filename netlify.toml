@@ -1,0 +1,4 @@
+[[headers]]
+    for = "/icons/*"
+    [headers.values]
+    Access-Control-Allow-Origin = "*"

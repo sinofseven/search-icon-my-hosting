@@ -118,7 +118,7 @@ function App() {
           <div className="column">
             <div className="card" style={{margin: "16px"}}>
               <div className="card-content">
-                <h2 className="">アイコン選択 ({iconName})</h2>
+                <h2 className="">select icon</h2>
                 <div className="control">
                   {radioButtons}
                   <input className="input" type="text" onChange={handleChangeText} />

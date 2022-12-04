@@ -99,7 +99,7 @@ function App() {
             <img src={url} alt={basename} style={{maxWidth: "64px"}} />
           </figure>
         </div>
-        <div className="card-content" style={{fontSize: "0.75rem", paddingLeft: "16px", paddingRight: "16px", paddingTop: "12px", paddingBottom: "12px", wordBreak: "break-all"}}>
+        <div className="card-content" style={{fontSize: "0.75rem", paddingLeft: "24px", paddingRight: "24px", paddingTop: "12px", paddingBottom: "12px", wordBreak: "break-all"}}>
           <ol>{listItems}</ol>
         </div>
       </div>
